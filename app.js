@@ -1,7 +1,7 @@
 const http = require("http");
 
 const server = http.createServer((req, res) => {
-  res.end("LEVEL-2 AUTO DEPLOY WORKING 🔥");
+  res.end("LEVEL-2 Deployed🔥");
 });
 
 server.listen(3000, () => {
